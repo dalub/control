@@ -12,7 +12,6 @@ int main() {
     ifstream fin("input.txt");
     fin >>inp;
     fin.close();
-    cout << inp << endl;
     for (int i =0; i<alfa.size(); i++) {
         if (first_go) {
             a = inp.find(alfa[i]);
